@@ -112,7 +112,7 @@
     function updateCountdown() {
       const now = new Date();
       const thisYear = now.getFullYear();
-      const target = new Date(thisYear, birthMonth - 1, birthDate, 0, 0, 0);
+      const target = new Date(thisYear, birthMonth - 1, birthDate, 10, 0, 0);
 
       const diff = target - now;
 
